@@ -1,3 +1,3 @@
-const _ = require('lodash')
+const name = process.argv[2]
 
-console.log('Hello, ' + _.capitalize('npm') + '!')
+console.log(`Hello, ${name}! (hello.js)`)
